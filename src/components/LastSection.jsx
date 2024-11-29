@@ -33,7 +33,7 @@ class MySections extends Component {
     return ( 
       <div className="text-white px-4 mb-5" style={{paddingBottom: "180px"}} >
         <h3 className="m-0" >The Walking Dead</h3>
-        <div class="d-flex justify-content-center pb-5">
+        <div className="d-flex justify-content-center pb-5">
         {this.state.isLoading && (
            <Spinner  animation="border" role="status" variant="danger">
             <span className="visually-hidden ">Loading...</span>
