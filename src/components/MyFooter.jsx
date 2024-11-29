@@ -6,8 +6,8 @@ const MyFooter = () => {
     
       <Container fluid className="fixed-bottom bg-dark text-center"  >
         <Row className=" bg-dark text-secondary mt-3 ">
-          <Col xs={12} lg={12}>
-            <ul className="list-unstyled d-sm-flex d-lg-block justify-content-sm-evenly justify-content-lg-center ">
+          <Col xs={12} >
+            <ul className="list-unstyled d-sm-flex justify-content-center gap-5 ">
               <li className="d-flex gap-3 fs-5 justify-content-center">
                 <i className="bi bi-facebook"></i>
                 <i className="bi bi-instagram"></i>
